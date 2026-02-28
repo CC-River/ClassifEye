@@ -39,6 +39,16 @@ jupyter notebook classifeye.ipynb
 [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) 
 by Masoud Nickparvar — 7,023 MRI images across 4 classes.
 
+## Model Weights
+Download the trained model from Hugging Face:
+[mirahq/classifeye](https://huggingface.co/mirahq/classifeye)
+
+To load it:
+```python
+import tensorflow as tf
+model = tf.keras.models.load_model("best_model.keras")
+```
+
 ## Disclaimer
 This is a research tool intended to assist radiologists. 
 It does not replace professional medical diagnosis.
