@@ -48,6 +48,9 @@ To load it:
 import tensorflow as tf
 model = tf.keras.models.load_model("best_model.keras")
 ```
+## Contributors
+- Midhun Raaj — Model development, training pipeline, Grad-CAM visualization, experimentation
+- Jenifer Aloysius — Model development, preprocessing pipeline, documentation
 
 ## Disclaimer
 This is a research tool intended to assist radiologists. 
